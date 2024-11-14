@@ -3,13 +3,13 @@ Made by Sniper.six
 Bluetooth Low Energy with Controller Xbox 1914 from Microsoft.
 Program establishes the BLE connectivity with controller and drives a vehicle.
 */
-
+// libs
 #include <BLEDevice.h>
 #include <BLEClient.h>
 #include <BLERemoteService.h>
 
 BLEAddress XboxAddr("XX:XX:XX:XX:XX:XX"); // Xbox Controller MAC add
-
+// HID values to look for
 static BLEUUID HID_SERVICE("1812");
 static BLEUUID HID_INFORMATION("2A4A");
 static BLEUUID HID_REPORT_MAP("2A4B");

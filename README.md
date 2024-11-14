@@ -14,6 +14,7 @@ This project requires three basic components:
 # XIAO ESP32-C6
 I chose this board because it uses a USB-C connector, which simplifies power, configuration, and serial connection. It’s a small board with just the right amount of connectivity for this project.
 Note: The XIAO ESP32-C6 only supports BLE (Bluetooth Low Energy), so it’s incompatible with standard Bluetooth.
+https://wiki.seeedstudio.com/xiao_esp32c6_getting_started/
 
 # Xbox Wireless Controller
 I used my existing Xbox controller, model 1914, which supports BLE connectivity as a HID (Human Interface Device). Any BLE-compatible controller that follows the GATT protocol for HID should work. In particular, older Microsoft controllers, like models 1708 and 1797, should also be compatible with the latest firmware updates.

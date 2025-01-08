@@ -6,10 +6,10 @@ Note: This project is still in continuous development and integration (CD/CI) as
 I wanted to create a project to control a car, tank, or rover with my Xbox controller. The task sounds simple, but like many things, it has its challenges. I was already familiar with ESP microcontrollers, which come with built-in WiFi and Bluetooth features. Since my Xbox controller uses Bluetooth to communicate with games, I thought, why not combine the two?
 
 # Parts
-This project requires three basic components:
+This project requires few basic components:
 1x ESP32 (any ESP module will work; I’m using the XIAO ESP32-C6)
 1x Xbox Wireless Controller, model 1708 or newer (mine is model 1914)
-1x Car, tank, or rover
+1x Car, tank, or rover.
 
 # XIAO ESP32-C6
 I chose this board because it uses a USB-C connector, which simplifies power, configuration, and serial connection. It’s a small board with just the right amount of connectivity for this project.

@@ -1,5 +1,3 @@
-<H1>Test</H1>
-
 # ESP32-BLE-with-Xbox-controller
 XIAO ESP32-C6 connected via BLE (Bluetooth Low Energy) to an Xbox Wireless Controller for controlling a toy car.
 Note: This project is still in continuous development and integration (CD/CI) as of November 2024.
